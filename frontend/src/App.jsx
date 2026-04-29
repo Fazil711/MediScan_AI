@@ -7,7 +7,7 @@ const cleanTextForSpeech = (text) => {
   return text.replace(/[#*`~>-]/g, '').replace(/\n/g, ' ').trim();
 };
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://mediscan-ai-1-6xod.onrender.com';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('scan');
